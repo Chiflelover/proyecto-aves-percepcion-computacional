@@ -3,7 +3,7 @@
 - Carpio Velásquez, Luis Fernando
 - Moreno Rodriguez, Diego Saúl
 - Sánchez Sanchez, Bruno Fabrissio
-- Michael
+- Valderrama Llajaruna, Enrique Michael
 
 ## Profesor
 
@@ -54,3 +54,14 @@ Fotografías → Apache Spark (4 particiones) → EfficientNet-B3 → Parquet
 Flask API REST
 ↓
 MLflow Registry
+
+## Nota sobre los notebooks
+
+GitHub no puede renderizar el notebook `aves.ipynb` directamente en el navegador
+debido a que contiene outputs de widgets de Google Colab (barras de progreso, etc.)
+que no son compatibles con el visualizador de GitHub.
+
+**Para ver el notebook correctamente:**
+1. Descargar el archivo `aves.ipynb` desde este repositorio
+2. Súbelo a Google Colab: [colab.research.google.com](https://colab.research.google.com)
+3. O abrir con Jupyter Notebook en local
